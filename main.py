@@ -4,6 +4,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 
 from src.data_ingestion import load_data
+from src.data_transformation import transform
 
 if __name__ == "__main__":
     dataset_path = "datasets/winequality.zip"
@@ -12,5 +13,5 @@ if __name__ == "__main__":
         raise FileNotFoundError(f"Dataset file '{dataset_path}' not found!")
 
     df = load_data(dataset_path)
-    print("Dataset loaded successfully! First few rows:")
     
+    df = transform()

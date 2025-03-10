@@ -31,3 +31,14 @@
 2025-03-10 16:34:55,314 - INFO - Missing values are not found
 2025-03-10 20:02:57,415 - INFO - Loading dataset...
 2025-03-10 20:02:57,418 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 20:08:58,498 - INFO - Loading dataset...
+2025-03-10 20:08:58,501 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 20:10:23,105 - INFO - Loading dataset...
+2025-03-10 20:10:23,110 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 20:10:23,130 - INFO - Loading data
+2025-03-10 20:10:23,133 - INFO - Checking duplicates
+2025-03-10 20:10:23,136 - INFO - Duplicates found
+2025-03-10 20:10:23,137 - INFO - Dropping Duplicates
+2025-03-10 20:10:23,137 - INFO - Checking Missing Values
+2025-03-10 20:10:23,138 - INFO - Missing values are not found
+2025-03-10 20:10:23,152 - INFO - Transformed data is saved
