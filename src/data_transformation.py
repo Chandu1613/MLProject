@@ -29,4 +29,4 @@ def transform():
     df.to_csv("artifacts/transformed_data.csv", index=False)
     log_message('Transformed data is saved')
 
-    return
+    return df
