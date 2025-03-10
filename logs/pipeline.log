@@ -42,3 +42,60 @@
 2025-03-10 20:10:23,137 - INFO - Checking Missing Values
 2025-03-10 20:10:23,138 - INFO - Missing values are not found
 2025-03-10 20:10:23,152 - INFO - Transformed data is saved
+2025-03-10 21:44:54,397 - INFO - Loading dataset...
+2025-03-10 21:44:54,402 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:44:54,423 - INFO - Loading data
+2025-03-10 21:44:54,426 - INFO - Checking duplicates
+2025-03-10 21:44:54,432 - INFO - Duplicates found
+2025-03-10 21:44:54,434 - INFO - Dropping Duplicates
+2025-03-10 21:44:54,434 - INFO - Checking Missing Values
+2025-03-10 21:44:54,434 - INFO - Missing values are not found
+2025-03-10 21:44:54,444 - INFO - Transformed data is saved
+2025-03-10 21:49:01,699 - INFO - Loading dataset...
+2025-03-10 21:49:01,702 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:49:01,719 - INFO - Loading data
+2025-03-10 21:49:01,722 - INFO - Checking duplicates
+2025-03-10 21:49:01,724 - INFO - Duplicates found
+2025-03-10 21:49:01,726 - INFO - Dropping Duplicates
+2025-03-10 21:49:01,726 - INFO - Checking Missing Values
+2025-03-10 21:49:01,726 - INFO - Missing values are not found
+2025-03-10 21:49:01,736 - INFO - Transformed data is saved
+2025-03-10 21:49:26,819 - INFO - Loading dataset...
+2025-03-10 21:49:26,822 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:49:26,842 - INFO - Loading data
+2025-03-10 21:49:26,847 - INFO - Checking duplicates
+2025-03-10 21:49:26,849 - INFO - Duplicates found
+2025-03-10 21:49:26,851 - INFO - Dropping Duplicates
+2025-03-10 21:49:26,851 - INFO - Checking Missing Values
+2025-03-10 21:49:26,851 - INFO - Missing values are not found
+2025-03-10 21:49:26,862 - INFO - Transformed data is saved
+2025-03-10 21:49:51,975 - INFO - Loading dataset...
+2025-03-10 21:49:51,978 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:53:22,525 - INFO - Loading dataset...
+2025-03-10 21:53:22,528 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:53:57,797 - INFO - Loading dataset...
+2025-03-10 21:53:57,800 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:53:57,817 - INFO - Loading data
+2025-03-10 21:53:57,820 - INFO - Checking duplicates
+2025-03-10 21:53:57,822 - INFO - Duplicates found
+2025-03-10 21:53:57,823 - INFO - Dropping Duplicates
+2025-03-10 21:53:57,823 - INFO - Checking Missing Values
+2025-03-10 21:53:57,824 - INFO - Missing values are not found
+2025-03-10 21:53:57,833 - INFO - Transformed data is saved
+2025-03-10 21:53:57,834 - INFO - Outliers are Handling using IQR method.....
+2025-03-10 21:53:57,854 - INFO - Completed the Outlier Handling.....
+2025-03-10 21:55:03,262 - INFO - Loading dataset...
+2025-03-10 21:55:03,265 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 21:55:03,287 - INFO - Loading data
+2025-03-10 21:55:03,290 - INFO - Checking duplicates
+2025-03-10 21:55:03,292 - INFO - Duplicates found
+2025-03-10 21:55:03,294 - INFO - Dropping Duplicates
+2025-03-10 21:55:03,294 - INFO - Checking Missing Values
+2025-03-10 21:55:03,294 - INFO - Missing values are not found
+2025-03-10 21:55:03,304 - INFO - Transformed data is saved
+2025-03-10 21:55:03,304 - INFO - Outliers are Handling using IQR method.....
+2025-03-10 21:55:03,323 - INFO - Completed the Outlier Handling.....
+2025-03-10 21:55:03,328 - INFO - Scaling is done using StandardScaler method
+2025-03-10 21:55:03,331 - INFO - Saving the Scaler Model.
+2025-03-10 21:55:03,333 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-10 21:55:03,354 - INFO - Train and Test data is saved
