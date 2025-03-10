@@ -37,4 +37,4 @@ def load_data(file_path):
     os.makedirs("artifacts", exist_ok=True)
     df.to_csv("artifacts/ingested_data.csv", index=False)
 
-    return 
+    return df
