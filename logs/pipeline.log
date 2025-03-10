@@ -11,3 +11,23 @@
 2025-03-10 00:02:28,465 - INFO - Loading dataset...
 2025-03-10 00:07:01,895 - INFO - Loading dataset...
 2025-03-10 00:07:01,901 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-10 16:23:36,169 - INFO - Duplicates found
+2025-03-10 16:23:36,174 - INFO - Dropping Duplicates
+2025-03-10 16:33:51,406 - INFO - Loading data
+2025-03-10 16:33:51,413 - INFO - Checking duplicates
+2025-03-10 16:33:51,415 - INFO - Duplicates found
+2025-03-10 16:33:51,419 - INFO - Dropping Duplicates
+2025-03-10 16:33:51,419 - INFO - Checking Missing Values
+2025-03-10 16:34:24,288 - INFO - Loading data
+2025-03-10 16:34:24,293 - INFO - Checking duplicates
+2025-03-10 16:34:24,296 - INFO - Duplicates found
+2025-03-10 16:34:24,298 - INFO - Dropping Duplicates
+2025-03-10 16:34:24,298 - INFO - Checking Missing Values
+2025-03-10 16:34:55,300 - INFO - Loading data
+2025-03-10 16:34:55,306 - INFO - Checking duplicates
+2025-03-10 16:34:55,309 - INFO - Duplicates found
+2025-03-10 16:34:55,312 - INFO - Dropping Duplicates
+2025-03-10 16:34:55,312 - INFO - Checking Missing Values
+2025-03-10 16:34:55,314 - INFO - Missing values are not found
+2025-03-10 20:02:57,415 - INFO - Loading dataset...
+2025-03-10 20:02:57,418 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
