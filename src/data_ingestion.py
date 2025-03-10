@@ -1,17 +1,20 @@
 import os
-
-os.chdir("../")
-
-import pandas as pd
+import sys
 import zipfile
+import pandas as pd
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from logs import log_message
 
 def load_data(file_path):
+    """Extracts and loads dataset from a ZIP file."""
     log_message("Loading dataset...")
 
     unzip_path = "datasets/extracted_winequality"
-    os.makedirs(unzip_path, exist_ok=True)  
+    os.makedirs(unzip_path, exist_ok=True)
 
+    # Extract the ZIP file
     with zipfile.ZipFile(file_path, "r") as zip_ref:
         zip_ref.extractall(unzip_path)
 
@@ -34,4 +37,4 @@ def load_data(file_path):
     os.makedirs("artifacts", exist_ok=True)
     df.to_csv("artifacts/ingested_data.csv", index=False)
 
-    return df
+    return 
