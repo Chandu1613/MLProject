@@ -26,27 +26,8 @@ def preprocessing(df):
         df_capped[col] = df[col].clip(lower=lower_bound, upper=upper_bound)
     
     log_message("Completed the Outlier Handling.....")
-
-    X = df_capped.drop('quality',axis=1)
-    y = df_capped['quality']
-
-    X_numeric_cols = X.select_dtypes(include=['number']).columns
-
-    scaler = StandardScaler()
-
-    X_scaled = X.copy()
-    X_scaled[X_numeric_cols] = scaler.fit_transform(X_scaled[X_numeric_cols])
-
-    log_message("Scaling is done using StandardScaler method")
-
-    df_scaled =pd.concat([X_scaled,y],axis=1)
-
-    with open("models/scaler.pkl", "wb") as f:
-        pickle.dump(scaler, f)
     
-    log_message("Saving the Scaler Model.")
-    
-    train,test = train_test_split(df_scaled,test_size=0.25,random_state=101)
+    train,test = train_test_split(df_capped,test_size=0.25,random_state=101)
     log_message("Splitting the train and test data in the ratio of 3:1")
 
     os.makedirs("artifacts", exist_ok=True)
