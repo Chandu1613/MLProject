@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jagad/OneDrive/Desktop/MLP/mlruns/0/9447d1e217d7428090641aaa00f09acc/artifacts
+end_time: 1741797945905
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9447d1e217d7428090641aaa00f09acc
+run_name: dapper-panda-975
+run_uuid: 9447d1e217d7428090641aaa00f09acc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741797941102
+status: 3
+tags: []
+user_id: jagad

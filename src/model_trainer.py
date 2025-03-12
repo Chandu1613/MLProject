@@ -13,12 +13,12 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from logs import log_message
 
-def training(test,train):
+def training(train,test):
     
     log_message("Loading the train and test data.....")
 
-    train_data = test
-    test_data = train
+    train_data = train
+    test_data = test
 
     log_message("Splitting the data.....")
 

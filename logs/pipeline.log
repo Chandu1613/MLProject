@@ -149,3 +149,29 @@
 2025-03-12 22:08:21,044 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, R²: 0.0330
 2025-03-12 22:08:25,449 - INFO - Saving the Model......
 2025-03-12 22:08:25,451 - INFO - Model training is done..
+2025-03-12 22:15:17,085 - INFO - Loading dataset...
+2025-03-12 22:15:17,088 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 22:15:17,108 - INFO - Loading data
+2025-03-12 22:15:17,112 - INFO - Checking duplicates
+2025-03-12 22:15:17,114 - INFO - Duplicates found
+2025-03-12 22:15:17,116 - INFO - Dropping Duplicates
+2025-03-12 22:15:17,116 - INFO - Checking Missing Values
+2025-03-12 22:15:17,116 - INFO - Missing values are not found
+2025-03-12 22:15:17,128 - INFO - Transformed data is saved
+2025-03-12 22:15:17,129 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 22:15:17,150 - INFO - Completed the Outlier Handling.....
+2025-03-12 22:15:17,156 - INFO - Scaling is done using StandardScaler method
+2025-03-12 22:15:17,157 - INFO - Saving the Scaler Model.
+2025-03-12 22:15:17,159 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 22:15:17,181 - INFO - Train and Test data is saved
+2025-03-12 22:15:17,181 - INFO - Loading the train and test data.....
+2025-03-12 22:15:17,181 - INFO - Splitting the data.....
+2025-03-12 22:15:17,182 - INFO - Model Trainning....
+2025-03-12 22:15:17,182 - INFO - Training models...
+2025-03-12 22:15:18,781 - INFO - RandomForest -> MSE: 0.3923, MAE: 0.5030, R²: 0.3687
+2025-03-12 22:15:26,399 - INFO - GradientBoosting -> MSE: 0.3937, MAE: 0.4985, R²: 0.3664
+2025-03-12 22:15:31,158 - INFO - LinearRegression -> MSE: 0.3937, MAE: 0.5008, R²: 0.3664
+2025-03-12 22:15:35,815 - INFO - SVC -> MSE: 0.3795, MAE: 0.4826, R²: 0.3892
+2025-03-12 22:15:41,131 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, R²: 0.0330
+2025-03-12 22:15:45,907 - INFO - Saving the Model......
+2025-03-12 22:15:45,908 - INFO - Model training is done..
