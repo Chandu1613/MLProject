@@ -32,3 +32,19 @@ python app.py
 Now,
 ```bash
 open up you local host and port
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+import dagshub
+dagshub.init(repo_owner='Chandu1613', repo_name='MLProject', mlflow=True)
+
+```bash
+
+export MLFLOW_TRACKING_URI= https://dagshub.com/Chandu1613/MLProject.mlflow
+
+export MLFLOW_TRACKING_USERNAME= Chandu1613
+
+export MLFLOW_TRACKING_PASSWORD= 6656b403fc3d6206838ca3affb4b3b2b84d84b8a
+
+```

@@ -201,3 +201,151 @@
 2025-03-12 22:20:40,665 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, R²: 0.0330
 2025-03-12 22:20:45,827 - INFO - Saving the Model......
 2025-03-12 22:20:45,830 - INFO - Model training is done..
+2025-03-12 22:42:35,666 - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+2025-03-12 22:42:36,951 - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+2025-03-12 22:42:38,149 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-12 22:42:38,157 - INFO - Accessing as Chandu1613
+2025-03-12 22:42:39,404 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Chandu1613/MLProject "HTTP/1.1 200 OK"
+2025-03-12 22:42:40,598 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-12 22:42:40,604 - INFO - Initialized MLflow to track repo "Chandu1613/MLProject"
+2025-03-12 22:42:40,606 - INFO - Repository Chandu1613/MLProject initialized!
+2025-03-12 22:42:40,607 - INFO - Loading dataset...
+2025-03-12 22:42:40,617 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 22:42:40,669 - INFO - Loading data
+2025-03-12 22:42:40,673 - INFO - Checking duplicates
+2025-03-12 22:42:40,692 - INFO - Duplicates found
+2025-03-12 22:42:40,698 - INFO - Dropping Duplicates
+2025-03-12 22:42:40,699 - INFO - Checking Missing Values
+2025-03-12 22:42:40,700 - INFO - Missing values are not found
+2025-03-12 22:42:40,716 - INFO - Transformed data is saved
+2025-03-12 22:42:40,719 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 22:42:40,771 - INFO - Completed the Outlier Handling.....
+2025-03-12 22:42:40,788 - INFO - Scaling is done using StandardScaler method
+2025-03-12 22:42:40,792 - INFO - Saving the Scaler Model.
+2025-03-12 22:42:40,800 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 22:42:40,861 - INFO - Train and Test data is saved
+2025-03-12 22:42:40,862 - INFO - Loading the train and test data.....
+2025-03-12 22:42:40,862 - INFO - Splitting the data.....
+2025-03-12 22:42:40,865 - INFO - Model Trainning....
+2025-03-12 22:42:40,865 - INFO - Training models...
+2025-03-12 22:50:55,933 - INFO - Loading dataset...
+2025-03-12 22:50:55,937 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 22:50:55,958 - INFO - Loading data
+2025-03-12 22:50:55,961 - INFO - Checking duplicates
+2025-03-12 22:50:55,963 - INFO - Duplicates found
+2025-03-12 22:50:55,965 - INFO - Dropping Duplicates
+2025-03-12 22:50:55,965 - INFO - Checking Missing Values
+2025-03-12 22:50:55,966 - INFO - Missing values are not found
+2025-03-12 22:50:55,976 - INFO - Transformed data is saved
+2025-03-12 22:50:55,977 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 22:50:55,997 - INFO - Completed the Outlier Handling.....
+2025-03-12 22:50:56,001 - INFO - Scaling is done using StandardScaler method
+2025-03-12 22:50:56,003 - INFO - Saving the Scaler Model.
+2025-03-12 22:50:56,005 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 22:50:56,028 - INFO - Train and Test data is saved
+2025-03-12 22:50:56,028 - INFO - Loading the train and test data.....
+2025-03-12 22:50:56,028 - INFO - Splitting the data.....
+2025-03-12 22:50:56,029 - INFO - Model Trainning....
+2025-03-12 22:50:56,029 - INFO - Training models...
+2025-03-12 22:59:33,732 - INFO - Loading dataset...
+2025-03-12 22:59:33,736 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 22:59:33,754 - INFO - Loading data
+2025-03-12 22:59:33,758 - INFO - Checking duplicates
+2025-03-12 22:59:33,759 - INFO - Duplicates found
+2025-03-12 22:59:33,761 - INFO - Dropping Duplicates
+2025-03-12 22:59:33,761 - INFO - Checking Missing Values
+2025-03-12 22:59:33,762 - INFO - Missing values are not found
+2025-03-12 22:59:33,772 - INFO - Transformed data is saved
+2025-03-12 22:59:33,772 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 22:59:33,792 - INFO - Completed the Outlier Handling.....
+2025-03-12 22:59:33,797 - INFO - Scaling is done using StandardScaler method
+2025-03-12 22:59:33,798 - INFO - Saving the Scaler Model.
+2025-03-12 22:59:33,799 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 22:59:33,819 - INFO - Train and Test data is saved
+2025-03-12 22:59:33,820 - INFO - Loading the train and test data.....
+2025-03-12 22:59:33,820 - INFO - Splitting the data.....
+2025-03-12 22:59:33,821 - INFO - Model Trainning....
+2025-03-12 22:59:33,821 - INFO - Training models...
+2025-03-12 23:05:30,049 - INFO - Loading dataset...
+2025-03-12 23:05:30,051 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 23:05:30,069 - INFO - Loading data
+2025-03-12 23:05:30,072 - INFO - Checking duplicates
+2025-03-12 23:05:30,074 - INFO - Duplicates found
+2025-03-12 23:05:30,075 - INFO - Dropping Duplicates
+2025-03-12 23:05:30,075 - INFO - Checking Missing Values
+2025-03-12 23:05:30,076 - INFO - Missing values are not found
+2025-03-12 23:05:30,086 - INFO - Transformed data is saved
+2025-03-12 23:05:30,087 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 23:05:30,107 - INFO - Completed the Outlier Handling.....
+2025-03-12 23:05:30,112 - INFO - Scaling is done using StandardScaler method
+2025-03-12 23:05:30,115 - INFO - Saving the Scaler Model.
+2025-03-12 23:05:30,116 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 23:05:30,136 - INFO - Train and Test data is saved
+2025-03-12 23:05:30,136 - INFO - Loading the train and test data.....
+2025-03-12 23:05:30,136 - INFO - Splitting the data.....
+2025-03-12 23:05:30,137 - INFO - Model Trainning....
+2025-03-12 23:05:30,137 - INFO - Training models...
+2025-03-12 23:09:46,554 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-12 23:09:46,561 - INFO - Accessing as Chandu1613
+2025-03-12 23:09:47,902 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/chandu1613/MLProject "HTTP/1.1 200 OK"
+2025-03-12 23:09:48,782 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-12 23:09:48,786 - INFO - Initialized MLflow to track repo "chandu1613/MLProject"
+2025-03-12 23:09:48,789 - INFO - Repository chandu1613/MLProject initialized!
+2025-03-12 23:09:50,407 - INFO - Loading dataset...
+2025-03-12 23:09:50,415 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 23:09:50,441 - INFO - Loading data
+2025-03-12 23:09:50,445 - INFO - Checking duplicates
+2025-03-12 23:09:50,448 - INFO - Duplicates found
+2025-03-12 23:09:50,451 - INFO - Dropping Duplicates
+2025-03-12 23:09:50,452 - INFO - Checking Missing Values
+2025-03-12 23:09:50,453 - INFO - Missing values are not found
+2025-03-12 23:09:50,464 - INFO - Transformed data is saved
+2025-03-12 23:09:50,464 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 23:09:50,487 - INFO - Completed the Outlier Handling.....
+2025-03-12 23:09:50,495 - INFO - Scaling is done using StandardScaler method
+2025-03-12 23:09:50,497 - INFO - Saving the Scaler Model.
+2025-03-12 23:09:50,498 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 23:09:50,520 - INFO - Train and Test data is saved
+2025-03-12 23:09:50,521 - INFO - Loading the train and test data.....
+2025-03-12 23:09:50,521 - INFO - Splitting the data.....
+2025-03-12 23:09:50,523 - INFO - Model Trainning....
+2025-03-12 23:09:50,523 - INFO - Training models...
+2025-03-12 23:09:52,043 - INFO - RandomForest -> MSE: 0.3923, MAE: 0.5030, R²: 0.3687
+2025-03-12 23:10:08,018 - INFO - GradientBoosting -> MSE: 0.3937, MAE: 0.4985, R²: 0.3664
+2025-03-12 23:10:19,669 - INFO - LinearRegression -> MSE: 0.3937, MAE: 0.5008, R²: 0.3664
+2025-03-12 23:10:30,420 - INFO - SVC -> MSE: 0.3795, MAE: 0.4826, R²: 0.3892
+2025-03-12 23:10:42,759 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, R²: 0.0330
+2025-03-12 23:10:56,093 - INFO - Saving the Model......
+2025-03-12 23:10:56,095 - INFO - Model training is done..
+2025-03-12 23:12:25,461 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-12 23:12:25,468 - INFO - Accessing as Chandu1613
+2025-03-12 23:12:26,370 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/chandu1613/MLProject "HTTP/1.1 200 OK"
+2025-03-12 23:12:27,265 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-03-12 23:12:27,269 - INFO - Initialized MLflow to track repo "chandu1613/MLProject"
+2025-03-12 23:12:27,271 - INFO - Repository chandu1613/MLProject initialized!
+2025-03-12 23:12:27,870 - INFO - Loading dataset...
+2025-03-12 23:12:27,873 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 23:12:27,901 - INFO - Loading data
+2025-03-12 23:12:27,904 - INFO - Checking duplicates
+2025-03-12 23:12:27,906 - INFO - Duplicates found
+2025-03-12 23:12:27,908 - INFO - Dropping Duplicates
+2025-03-12 23:12:27,908 - INFO - Checking Missing Values
+2025-03-12 23:12:27,909 - INFO - Missing values are not found
+2025-03-12 23:12:27,919 - INFO - Transformed data is saved
+2025-03-12 23:12:27,919 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 23:12:27,941 - INFO - Completed the Outlier Handling.....
+2025-03-12 23:12:27,949 - INFO - Scaling is done using StandardScaler method
+2025-03-12 23:12:27,950 - INFO - Saving the Scaler Model.
+2025-03-12 23:12:27,951 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 23:12:27,979 - INFO - Train and Test data is saved
+2025-03-12 23:12:27,979 - INFO - Loading the train and test data.....
+2025-03-12 23:12:27,980 - INFO - Splitting the data.....
+2025-03-12 23:12:27,980 - INFO - Model Training....
+2025-03-12 23:12:27,981 - INFO - Training models...
+2025-03-12 23:12:29,628 - INFO - RandomForest -> MSE: 0.3923, MAE: 0.5030, R²: 0.3687
+2025-03-12 23:12:45,559 - INFO - GradientBoosting -> MSE: 0.3937, MAE: 0.4985, R²: 0.3664
+2025-03-12 23:12:57,055 - INFO - LinearRegression -> MSE: 0.3937, MAE: 0.5008, R²: 0.3664
+2025-03-12 23:13:07,834 - INFO - SVC -> MSE: 0.3795, MAE: 0.4826, R²: 0.3892
+2025-03-12 23:13:20,163 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, R²: 0.0330
+2025-03-12 23:13:32,959 - INFO - Saving the best model......
+2025-03-12 23:13:32,961 - INFO - Model training is done..
