@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jagad/OneDrive/Desktop/MLP/mlruns/951629547521299073/00c7f374f2404b5b95cb08d4d8f4eafa/artifacts
+end_time: 1741796791545
+entry_point_name: ''
+experiment_id: '951629547521299073'
+lifecycle_stage: active
+run_id: 00c7f374f2404b5b95cb08d4d8f4eafa
+run_name: enthused-mouse-490
+run_uuid: 00c7f374f2404b5b95cb08d4d8f4eafa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741796786322
+status: 3
+tags: []
+user_id: jagad

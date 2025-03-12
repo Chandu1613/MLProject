@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jagad/OneDrive/Desktop/MLP/mlruns/0/2540ae5a69be41f2a6d7fe4f2266db93/artifacts
+end_time: 1741797500999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2540ae5a69be41f2a6d7fe4f2266db93
+run_name: adaptable-hound-597
+run_uuid: 2540ae5a69be41f2a6d7fe4f2266db93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741797496133
+status: 3
+tags: []
+user_id: jagad

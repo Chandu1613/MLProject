@@ -6,6 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 from src.data_ingestion import load_data
 from src.data_transformation import transform
 from src.data_preprocessing import preprocessing
+from src.model_trainer import training
 
 if __name__ == "__main__":
     dataset_path = "datasets/winequality.zip"
@@ -15,6 +16,8 @@ if __name__ == "__main__":
 
     df = load_data(dataset_path)
     
-    df = transform()
+    transformed = transform()
 
-    df = preprocessing(df)
+    train,test = preprocessing(transformed)
+
+    training(train,test)

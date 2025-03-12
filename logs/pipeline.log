@@ -99,3 +99,53 @@
 2025-03-10 21:55:03,331 - INFO - Saving the Scaler Model.
 2025-03-10 21:55:03,333 - INFO - Splitting the train and test data in the ratio of 3:1
 2025-03-10 21:55:03,354 - INFO - Train and Test data is saved
+2025-03-12 21:54:09,327 - INFO - Training models...
+2025-03-12 21:54:10,056 - INFO - RandomForest -> MSE: 0.3923, MAE: 0.5030, RÂ²: 0.3687
+2025-03-12 21:54:19,709 - INFO - GradientBoosting -> MSE: 0.3937, MAE: 0.4985, RÂ²: 0.3664
+2025-03-12 21:56:03,048 - INFO - Training models...
+2025-03-12 21:56:03,818 - INFO - RandomForest -> MSE: 0.3923, MAE: 0.5030, RÂ²: 0.3687
+2025-03-12 21:56:09,955 - INFO - GradientBoosting -> MSE: 0.3937, MAE: 0.4985, RÂ²: 0.3664
+2025-03-12 21:56:15,403 - INFO - LinearRegression -> MSE: 0.3937, MAE: 0.5008, RÂ²: 0.3664
+2025-03-12 21:56:20,718 - INFO - SVC -> MSE: 0.3795, MAE: 0.4826, RÂ²: 0.3892
+2025-03-12 21:56:26,349 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, RÂ²: 0.0330
+2025-03-12 22:06:23,062 - INFO - Loading dataset...
+2025-03-12 22:06:23,067 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 22:06:23,087 - INFO - Loading data
+2025-03-12 22:06:23,090 - INFO - Checking duplicates
+2025-03-12 22:06:23,097 - INFO - Duplicates found
+2025-03-12 22:06:23,099 - INFO - Dropping Duplicates
+2025-03-12 22:06:23,099 - INFO - Checking Missing Values
+2025-03-12 22:06:23,100 - INFO - Missing values are not found
+2025-03-12 22:06:23,109 - INFO - Transformed data is saved
+2025-03-12 22:06:23,110 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 22:06:23,129 - INFO - Completed the Outlier Handling.....
+2025-03-12 22:06:23,134 - INFO - Scaling is done using StandardScaler method
+2025-03-12 22:06:23,135 - INFO - Saving the Scaler Model.
+2025-03-12 22:06:23,137 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 22:06:23,157 - INFO - Train and Test data is saved
+2025-03-12 22:07:58,763 - INFO - Loading dataset...
+2025-03-12 22:07:58,766 - INFO - Reading CSV file: datasets/extracted_winequality\winequality\winequality-red.csv
+2025-03-12 22:07:58,784 - INFO - Loading data
+2025-03-12 22:07:58,787 - INFO - Checking duplicates
+2025-03-12 22:07:58,789 - INFO - Duplicates found
+2025-03-12 22:07:58,791 - INFO - Dropping Duplicates
+2025-03-12 22:07:58,791 - INFO - Checking Missing Values
+2025-03-12 22:07:58,791 - INFO - Missing values are not found
+2025-03-12 22:07:58,816 - INFO - Transformed data is saved
+2025-03-12 22:07:58,817 - INFO - Outliers are Handling using IQR method.....
+2025-03-12 22:07:58,834 - INFO - Completed the Outlier Handling.....
+2025-03-12 22:07:58,839 - INFO - Scaling is done using StandardScaler method
+2025-03-12 22:07:58,840 - INFO - Saving the Scaler Model.
+2025-03-12 22:07:58,842 - INFO - Splitting the train and test data in the ratio of 3:1
+2025-03-12 22:07:58,862 - INFO - Train and Test data is saved
+2025-03-12 22:07:58,863 - INFO - Loading the train and test data.....
+2025-03-12 22:07:58,863 - INFO - Splitting the data.....
+2025-03-12 22:07:58,863 - INFO - Model Trainning....
+2025-03-12 22:07:58,864 - INFO - Training models...
+2025-03-12 22:08:00,499 - INFO - RandomForest -> MSE: 0.3923, MAE: 0.5030, R²: 0.3687
+2025-03-12 22:08:07,371 - INFO - GradientBoosting -> MSE: 0.3937, MAE: 0.4985, R²: 0.3664
+2025-03-12 22:08:11,800 - INFO - LinearRegression -> MSE: 0.3937, MAE: 0.5008, R²: 0.3664
+2025-03-12 22:08:16,227 - INFO - SVC -> MSE: 0.3795, MAE: 0.4826, R²: 0.3892
+2025-03-12 22:08:21,044 - INFO - ElasticNet -> MSE: 0.6009, MAE: 0.6625, R²: 0.0330
+2025-03-12 22:08:25,449 - INFO - Saving the Model......
+2025-03-12 22:08:25,451 - INFO - Model training is done..

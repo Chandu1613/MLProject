@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jagad/OneDrive/Desktop/MLP/mlruns/951629547521299073/c7da94daefb34664bec201cc59a90e8b/artifacts
+end_time: 1741796775353
+entry_point_name: ''
+experiment_id: '951629547521299073'
+lifecycle_stage: active
+run_id: c7da94daefb34664bec201cc59a90e8b
+run_name: nebulous-rook-590
+run_uuid: c7da94daefb34664bec201cc59a90e8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741796769526
+status: 3
+tags: []
+user_id: jagad

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/jagad/OneDrive/Desktop/MLP/mlruns/0/0f513cc3f3ef4d1f9c011bfa2ba06592/artifacts
+end_time: 1741797491757
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0f513cc3f3ef4d1f9c011bfa2ba06592
+run_name: calm-grub-500
+run_uuid: 0f513cc3f3ef4d1f9c011bfa2ba06592
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741797487132
+status: 3
+tags: []
+user_id: jagad
