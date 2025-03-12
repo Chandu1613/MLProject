@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jagad/OneDrive/Desktop/MLP/mlruns/0/51426b997cd443b28c7babd49e65ff02/artifacts
+end_time: 1741798245820
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 51426b997cd443b28c7babd49e65ff02
+run_name: powerful-jay-529
+run_uuid: 51426b997cd443b28c7babd49e65ff02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741798240600
+status: 3
+tags: []
+user_id: jagad

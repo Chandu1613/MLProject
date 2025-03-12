@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/jagad/OneDrive/Desktop/MLP/mlruns/0/4d0fb3126db54db9a09dfc31bc3773fe/artifacts
+end_time: 1741798230511
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d0fb3126db54db9a09dfc31bc3773fe
+run_name: brawny-colt-146
+run_uuid: 4d0fb3126db54db9a09dfc31bc3773fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741798225275
+status: 3
+tags: []
+user_id: jagad
