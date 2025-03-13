@@ -7,6 +7,7 @@ from src.data_ingestion import load_data
 from src.data_transformation import transform
 from src.data_preprocessing import preprocessing
 from src.model_trainer import training
+from src.model_evaluation import load_model, evaluate_and_tuning
 
 if __name__ == "__main__":
     dataset_path = "datasets/winequality.zip"
@@ -21,3 +22,7 @@ if __name__ == "__main__":
     train,test = preprocessing(transformed)
 
     training(train,test)
+
+    model = load_model('models/trainedModel.pkl')
+
+    evaluate_and_tuning(model,train,test)
